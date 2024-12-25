@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 202, 202);
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    
+}
+
+.reset {
+    position: absolute;
+    top: 600px;
+    right: 50%;
+}
+
+.message {
+    position: absolute;
+    top: 580px;
+    right: 50.6%;
+}
+
+.board {
+    position: absolute;
+    right: 650px;
+    top: 230px;
+}
